@@ -5,6 +5,7 @@
 - git:
     repo: https://github.com/openshift/openshift-ansible
     dest: ~/openshift-ansible
+    reference: release-3.7
     force: yes
     update: yes
   become: yes
